@@ -25,7 +25,7 @@ public class MainActivity extends AppCompatActivity {
 
     // add_layout.xml 을 activity_main.xml 에 추가하는 메소드
     private void addLayout() {
-        LinearLayout add_layout = (LinearLayout) findViewById(R.id.addLayout);
+        LinearLayout add_layout = findViewById(R.id.addLayout);
 
         // 인플레이션
         LayoutInflater inflater = (LayoutInflater) getSystemService(Context.LAYOUT_INFLATER_SERVICE);
